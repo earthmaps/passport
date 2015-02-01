@@ -1,0 +1,29 @@
+{
+	"name": "passport-earthmaps",
+	"version": "0.0.1",
+	"description": "OAuth2 client authentication for Earthmaps using passport.js",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://earthmaps.org",
+	"keywords": ["earthmaps", "passport", "oauth2", "auth", "authentication", "identity", "api", "json"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/earthmaps/passport.git"
+	},
+	"bugs": {
+		"url": "http://github.com/earthmaps/passport/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.makesites.org/licenses/MIT"
+	}],
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"pkginfo": "0.2.x",
+		"passport-oauth": "0.1.*"
+	}
+}
